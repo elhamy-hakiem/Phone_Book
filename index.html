@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phone Book</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container py-4">
+        <input id="searchInp" class="form-control mb-3" placeholder="search ..">
+        <div class="row" id="searchRow"></div>
+    </div>
+
+
+    <div class="container py-3">
+        <div class="alert alert-warning" id="alertcontainer"></div>
+        <div class="form-content p-5">
+            <div class="form-group">
+                <label>ProductName :</label>
+                <input id="productName" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>ProductPrice :</label>
+                <input id="productPrice" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>ProductCompany :</label>
+                <input id="productCompany" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>ProductDescription :</label>
+                <textarea id="productDesc" class="form-control"></textarea>
+            </div>
+
+            <button id="addBtn" class="btn btn-danger float-right">Add Product</button>
+            <button id="imgBtn" class="btn btn-danger float-right mr-2">Add Image</button>
+            <div class="clearfix"></div>
+        </div>
+        <hr>
+
+        <div class="productsContainer pb-3 ">
+            <div id="productsRow" class="row">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

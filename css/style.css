@@ -1,0 +1,26 @@
+body
+{
+    font-family: 'Signika', sans-serif;
+}
+.form-content
+{
+    background-color: #EEE;
+}
+ .productItem
+{
+    background-color: lightgray;
+    border-radius: 20%;
+}
+ .productItem .productImg
+{
+    height: 250px;
+    border-radius: 100%;
+}
+ .productItem span 
+{
+    font-weight: bold;
+}
+#alertcontainer,#searchAlertcontainer
+{
+    display: none;
+}
